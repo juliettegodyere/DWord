@@ -1,0 +1,24 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "csvtojson": "^0.5.14",
+    "dateformat": "^1.0.12",
+    "debug": "~2.2.0",
+    "ejs": "^2.4.2",
+    "excel-export": "^0.5.1",
+    "express": "~4.13.1",
+    "express-csv": "^0.6.0",
+    "jade": "~1.11.0",
+    "json2csv": "^3.4.2",
+    "mongoose": "^4.4.20",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  }
+}

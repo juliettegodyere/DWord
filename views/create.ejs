@@ -1,0 +1,51 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script
+		src="https://code.jquery.com/jquery-1.12.4.min.js"
+		integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+		crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+	</script>
+	<title>Create</title>
+</head>
+<body>
+	<h1><%= title %></h1>
+
+	<form role="form" method="post" action="" style="width:50%">
+		<div class="form-group">
+			<input type="text" class="form-control" name="title" placeholder="Title">
+		</div>
+		<div class="form-group">
+			<input type="date" class="form-control" name="date_created" placeholder="dd-mm-yy">
+		</div>
+
+
+		<div class="form-group">
+			<textarea name="description" cols="6" rows"7" class = "form-control" placeholder="Description"></textarea>
+		</div>
+		<div class="form-group">
+			<select name="category"  class = "form-control" >
+			  <option value="Rapsody of realities">Rapsody of realities</option>
+			  <option value="My Utmost For His Highest">My Utmost For His Highest</option>
+			  <option value="Open Heaven">Open Heaven</option>
+			  <option value="Wisdom for the day">Wisdom for the day</option>
+			  <option value="Everyday answers">Everyday answers</option>
+			  <option value="United Christain Broadcaster">United Christain Broadcaster</option>
+			  <option value="Faith for Faith">Faith for Faith</option>
+			  <option value=" daily manna"> Daily manna</option>
+			  <option value=" morning star"> Morning star</option>
+			  <option value="spiritual catholic">Spiritual catholic</option>
+			  <option value="Moody Global Ministries">Moody Global Ministries</option>
+			  <option value="foursquare church">Foursquare church</option>
+			  <option value="Vision Christian media">Vision Christian media</option>
+			</select>
+		</div>
+
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+
+	<h5><a href="/">Back to home page</a></h5>	
+</body>
+</html>
